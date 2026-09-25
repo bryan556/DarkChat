@@ -1,0 +1,12 @@
+create table users (
+    id INTEGER primary key not null,
+    user text not null,
+    password text not null
+
+);
+
+Insert into users(id,user,password) values(12589,'mario','1231213');
+Insert into users(id,user,password) values(35812,'marquez','7589633');
+Insert into users(id,user,password) values(73168,'garza','154963752');
+
+select * from users

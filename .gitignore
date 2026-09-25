@@ -1,0 +1,17 @@
+# Entorno virtual
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Archivos generados por NiceGUI
+.nicegui/
+
+# Variables de entorno / secretos
+.env
+.env.*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
